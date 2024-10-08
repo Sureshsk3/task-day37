@@ -1,9 +1,9 @@
 import { Navigate } from "react-router-dom";
-import Login from "../components/Login";
-import Signin from "../components/Signin";
-import Forget from "../components/Forget";
-import ResetPassword from "../Components/Resetpassword";
-import OTP from "../Components/OTP";
+import Login from "../components/Login.jsx";
+import Signin from "../components/Signin.jsx";
+import Forget from "../components/Forget.jsx";
+import ResetPassword from "../Components/Resetpassword.jsx";
+import OTP from "../Components/OTP.jsx";
 
 export default [
   {
