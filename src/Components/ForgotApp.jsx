@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import AxiosService from "../common/AxiosServices";
 import { useNavigate } from "react-router-dom";
 
-function Forget() {
+function ForgotApp() {
   const Navigate = useNavigate();
   const [email, setEmail] = useState("");
 
@@ -45,4 +45,4 @@ function Forget() {
   );
 }
 
-export default Forget;
+export default ForgotApp;

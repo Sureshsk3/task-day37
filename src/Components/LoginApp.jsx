@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import AxiosService from "../common/AxiosServices";
 import { Link, useNavigate } from "react-router-dom";
 import UseLogout from "../utils/UseLogout";
-function Login() {
+function LoginApp() {
   const Navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -94,4 +94,4 @@ useEffect(()=>{
   );
 }
 
-export default Login;
+export default LoginApp;

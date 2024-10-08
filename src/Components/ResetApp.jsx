@@ -4,7 +4,7 @@ import Apirouter from "../common/Apirouter";
 import AxiosService from "../common/AxiosServices";
 import toast from "react-hot-toast";
 
-function ResetPassword() {
+function ResetApp() {
   const id = sessionStorage.getItem("id");
   const token = sessionStorage.getItem('token')
   const [password, setPassword] = useState("");
@@ -66,4 +66,4 @@ function ResetPassword() {
   );
 }
 
-export default ResetPassword;
+export default ResetApp;

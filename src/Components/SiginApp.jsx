@@ -5,7 +5,7 @@ import Apirouter from "../common/Apirouter";
 import toast from "react-hot-toast";
 import AxiosService from "../common/AxiosServices";
 import { useNavigate } from "react-router-dom";
-function Signin() {
+function SiginApp() {
   const Navigate = useNavigate();
   const logout = UseLogout();
   const [fullName, setFullname] = useState("");
@@ -105,4 +105,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default SiginApp;

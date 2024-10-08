@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Apirouter from "../common/Apirouter";
 import AxiosService from "../common/AxiosServices";
 import toast from "react-hot-toast";
-function OTP() {
+function OtpApp() {
   const id = sessionStorage.getItem("id");
   const [token,setToken] = useState("")
   
@@ -45,4 +45,4 @@ function OTP() {
   );
 }
 
-export default OTP;
+export default OtpApp;

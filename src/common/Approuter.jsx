@@ -1,51 +1,31 @@
 import { Navigate } from "react-router-dom";
 import React from "react";
-import Login from "../components/Login";
-import Signin from "../components/Signin.jsx";
-import Forget from "../components/Forget.jsx";
-import ResetPassword from "../Components/Resetpassword.jsx";
-import OTP from "../Components/OTP.jsx";
+import LoginApp from "../Components/LoginApp";
+import SiginApp from "../Components/SiginApp";
+import ForgotApp from "../Components/ForgotApp";
+import OtpApp from "../Components/OtpApp";
+import ResetApp from "../Components/ResetApp";
 
 export default [
   {
     path: "/login",
-    element: (
-      <>
-        <Login />
-      </>
-    ),
+    element: <><LoginApp/></>,
   },
   {
     path: "/signin",
-    element: (
-      <>
-        <Signin />
-      </>
-    ),
+    element: <><SiginApp/></>,
   },
   {
     path: "/forget",
-    element: (
-      <>
-        <Forget />
-      </>
-    ),
+    element: <><ForgotApp/></>,
   },
   {
     path: "/otp",
-    element: (
-      <>
-        <OTP />
-      </>
-    ),
+    element: <><OtpApp/></>,
   },
   {
     path: "/resetPassword",
-    element: (
-      <>
-        <ResetPassword />
-      </>
-    ),
+    element: <><ResetApp/></>,
   },
   {
     path: "*",
