@@ -6,7 +6,6 @@ import ResetPassword from "../Components/Resetpassword";
 import OTP from "../Components/OTP";
 
 export default [
-  
   {
     path: "/login",
     element: (
@@ -35,7 +34,7 @@ export default [
     path: "/otp",
     element: (
       <>
-        <OTP/>
+        <OTP />
       </>
     ),
   },

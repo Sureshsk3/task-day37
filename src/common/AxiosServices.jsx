@@ -7,7 +7,6 @@ const AxiosService = axios.create({
         "Content-Type":"application/json"
     }
 })
-
 AxiosService.interceptors.request.use(config=>{
     let token = sessionStorage.getItem('token')    
     if(token && config.authenticate)
